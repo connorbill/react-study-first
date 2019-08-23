@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
 import './DefaultPage.scss';
-import shopModule from './DefaultPage.module.scss';
 
 export class DefaultPage extends Component {
   static propTypes = {
