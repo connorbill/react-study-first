@@ -4,17 +4,22 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
+
 export class Book extends Component {
   static propTypes = {
     shop: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired,
   };
 
+
+
   render() {
+    const element = <h1>Hello, world!</h1>;
     return (
       <div className="shop-book-page">
         shop-book-page
         <div>there are many books.</div>
+        {element}
 
       </div>
     );
