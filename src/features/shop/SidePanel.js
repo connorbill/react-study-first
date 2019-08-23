@@ -5,6 +5,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 import './SidePanel.scss';
+import { Icon } from 'antd';
 
 export class SidePanel extends Component {
   static propTypes = {
@@ -16,6 +17,13 @@ export class SidePanel extends Component {
     return (
       <div className="shop-side-panel">
         <ul>
+          <li>
+            <Link to="/">
+              <div className="middle-left">
+                <Icon type="left" />Back
+              </div>
+            </Link>
+          </li>
           <li>
             <Link to="/shop">shop</Link>
           </li>

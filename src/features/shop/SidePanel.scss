@@ -4,7 +4,7 @@
   position: fixed;
   box-sizing: border-box;
   overflow: auto;
-  top: 55px;
+  top: 0;
   left: 0;
   margin: 0;
   padding: 40px;
@@ -42,5 +42,14 @@
     margin-top: 40px;
     line-height: 150%;
     color: #aaa;
+  }
+  .middle-left{
+    display: flex;
+    align-items: center;
+    .anticon{
+      display: flex;
+      align-items: center;
+      margin-right: 6px;
+    }
   }
 }
