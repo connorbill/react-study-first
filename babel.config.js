@@ -2,7 +2,8 @@ module.exports = function(api) {
   const presets = ['react-app'];
   const plugins = [
     ["@babel/plugin-proposal-decorators", { "legacy": true }],
-    ["@babel/plugin-proposal-class-properties", { "loose" : true }]
+    ["@babel/plugin-proposal-class-properties", { "loose" : true }],
+    "transform-runtime"
   ];
   if (api.env('development')) {
     plugins.push('react-hot-loader/babel');

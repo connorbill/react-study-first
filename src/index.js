@@ -1,3 +1,9 @@
+
+import 'core-js/es/promise';
+import 'core-js/es/object/assign';
+import 'core-js/es/object/assign';
+import 'raf/polyfill';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Root from './Root';
