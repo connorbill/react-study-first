@@ -56,6 +56,11 @@ let Apple = loadable({
   loading: ReactLoadableLoading
 });
 
+let Food = loadable({
+  loader: () => import('./Food.js'),
+  loading: ReactLoadableLoading
+});
+
 export default {
   name: 'Shop',
   path: 'shop',
@@ -65,5 +70,6 @@ export default {
     { path: 'category', name: 'category', component: ShopCategory },
     { path: 'book', name: 'book', component: Book },
     { path: 'apple', name: 'Apple', component: Apple },
+    { path: 'food', name: 'Food', component: Food },
   ],
 };

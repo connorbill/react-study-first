@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
-import './Apple.scss';
+import './Food.scss';
 
-export class Apple extends Component {
+export class Food extends Component {
   static propTypes = {
     shop: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired,
@@ -15,8 +15,8 @@ export class Apple extends Component {
 
   render() {
     return (
-      <div className="shop-book-page">
-        <div className="apple">apple</div>
+      <div className="shop-food-page">
+        <div className="food">food</div>
       </div>
     );
   }
@@ -40,4 +40,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Apple);
+)(Food);

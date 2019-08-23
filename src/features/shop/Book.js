@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
+import './Book.scss';
 
 
 export class Book extends Component {
@@ -18,7 +19,7 @@ export class Book extends Component {
     return (
       <div className="shop-book-page">
         shop-book-page
-        <div>there are many books.</div>
+        <div className="book">there are many books.</div>
         {element}
 
       </div>

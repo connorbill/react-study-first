@@ -23,7 +23,7 @@ export class DefaultPage extends Component {
         <div className="shop-module">
           shop-module
         </div>
-        <div className={shopModule.shopTest}>
+        <div className={shopModule.shopDefaultModule}>
           shopTest
           <div className={shopModule.itemA}>itemA
             <div>

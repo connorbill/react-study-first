@@ -28,6 +28,9 @@ export class SidePanel extends Component {
           <li>
             <Link to="/shop/apple"> apple</Link>
           </li>
+          <li>
+            <Link to="/shop/food"> food</Link>
+          </li>
         </ul>
         <div className="memo">
           This is a shop feature
