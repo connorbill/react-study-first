@@ -1,0 +1,16 @@
+.shopTest{
+  font-size: 18px;
+  color: blue;
+  .itemA{
+    color: red;
+    .itemF{
+      color: green;
+    }
+  }
+}
+.shopList{
+  color: pink;
+  .shopItem{
+    color: blue;
+  }
+}
