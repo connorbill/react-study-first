@@ -1,19 +1,7 @@
 @import '../../styles/mixins';
 
 .home-app {
-  .home-nav{
-    //position: fixed;
-    //width: 100%;
-    //top: 0;
-    ul{
-      display: flex;
-      li{
-        margin-right: 10px;
-        list-style: none;
-      }
-    }
-  }
   .home-content{
-    padding-top: 50px;
+    //padding-top: 50px;
   }
 }

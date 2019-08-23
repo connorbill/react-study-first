@@ -20,6 +20,22 @@ export class WelcomePage extends Component {
           <h1 className="app-title">Welcome to Rekit React</h1>
         </header>
         <div className="app-intro">
+          <div className="home-nav">
+            <div className="nav-box">
+              <div className="nav-item">
+                <Link to="/">home</Link>
+              </div>
+              <div className="nav-item">
+                <Link to="/examples">examples</Link>
+              </div>
+              <div className="nav-item">
+                <Link to="/shop">shop</Link>
+              </div>
+              <div className="nav-item">
+                <Link to="/lottery">lottery</Link>
+              </div>
+            </div>
+          </div>
           <h3>To get started:</h3>
           <ul>
             <li>

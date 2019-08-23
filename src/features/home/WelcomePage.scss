@@ -58,6 +58,19 @@
     margin: auto;
   }
 
+  .home-nav{
+    //position: fixed;
+    //width: 100%;
+    //top: 0;
+    .nav-box{
+      display: flex;
+      .nav-item{
+        margin-right: 10px;
+        list-style: none;
+      }
+    }
+  }
+
   @keyframes app-logo-spin {
     from {
       transform: rotate(0deg);
