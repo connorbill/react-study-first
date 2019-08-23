@@ -1,4 +1,4 @@
-
+// 兼容低版本
 import 'core-js/es/promise';
 import 'core-js/es/object/assign';
 import 'core-js/es/object/assign';

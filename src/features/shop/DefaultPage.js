@@ -14,6 +14,7 @@ export class DefaultPage extends Component {
     actions: PropTypes.object.isRequired,
   };
 
+
   render() {
     console.log(this.props)
     return (
@@ -35,6 +36,7 @@ export class DefaultPage extends Component {
         <div className={styles.shopStyle}>shop-style,test</div>
         <div>
           hello,22212
+
         </div>
       </div>
     );

@@ -51,6 +51,11 @@ let Book = loadable({
   loading: ReactLoadableLoading
 });
 
+let Apple = loadable({
+  loader: () => import('./Apple.js'),
+  loading: ReactLoadableLoading
+});
+
 export default {
   name: 'Shop',
   path: 'shop',
@@ -59,5 +64,6 @@ export default {
     { path: 'default-page', name: 'Default page', component: DefaultPage, isIndex: true },
     { path: 'category', name: 'category', component: ShopCategory },
     { path: 'book', name: 'book', component: Book },
+    { path: 'apple', name: 'Apple', component: Apple },
   ],
 };
