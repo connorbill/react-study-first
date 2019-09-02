@@ -30,7 +30,7 @@
 // );
 
 
-// 按需加载方案三
+// 方案一
 import loadable from 'react-loadable';
 import ReactLoadableLoading from '../common/ReactLoadableLoading.js';
 let DefaultPage = loadable({
