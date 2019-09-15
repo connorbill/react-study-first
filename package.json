@@ -61,7 +61,10 @@
   "rekit": {
     "studioPort": 6090
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "postcss-pxtorem": "^4.0.1",
+    "rekit-studio": "^3.0.0-beta.33"
+  },
   "dependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
@@ -136,7 +139,6 @@
     "redux-mock-store": "^1.5.3",
     "redux-thunk": "^2.3.0",
     "rekit-core": "^2.3.4",
-    "rekit-studio": "^2.4.1",
     "resolve": "1.8.1",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.0",
