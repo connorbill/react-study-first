@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import * as actions from './redux/actions';
 import './WelcomePage.scss';
+// import { ReactComponent as ArrowsLeft } from '../../images/svg/arrows-left.svg';
 
 export class WelcomePage extends Component {
   static propTypes = {
@@ -57,6 +58,7 @@ export class WelcomePage extends Component {
               <Link to="/examples">/examples</Link>
             </li>
           </ul>
+          {/*<ArrowsLeft></ArrowsLeft>*/}
         </div>
       </div>
     );

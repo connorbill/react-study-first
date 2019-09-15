@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": " cross-env PORT=3100 node scripts/start.js",
+    "start": " cross-env PORT=3101 node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "eslint": "eslint src/"
